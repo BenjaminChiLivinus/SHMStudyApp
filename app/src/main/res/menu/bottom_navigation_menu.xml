@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_study"
+        android:icon="@drawable/ic_study"
+        android:title="@string/studies">
+    </item>
+
+    <item
+        android:id="@+id/ic_inspiration"
+        android:icon="@drawable/ic_inspiration"
+        android:title="@string/inspiration">
+    </item>
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home">
+    </item>
+
+    <item
+        android:id="@+id/ic_me"
+        android:icon="@drawable/ic_me"
+        android:title="@string/me">
+    </item>
+
+    <item
+        android:id="@+id/ic_library"
+        android:icon="@drawable/ic_library"
+        android:title="@string/library">
+    </item>
+
+</menu>

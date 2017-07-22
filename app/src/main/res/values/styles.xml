@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--This makes the tabs fill the screen with on all screen types-->
+    <style name="tabCustomStyle" parent="Widget.Design.TabLayout">
+        <item name="tabGravity">fill</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <!--Padding [2dp] makes the tabIndicator appear above
+        the stroke set in white_grey_border_bottom.xml; hence
+        it is the same value as the tabIndicatorHeight-->
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+</resources>

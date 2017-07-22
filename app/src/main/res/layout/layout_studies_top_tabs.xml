@@ -1,0 +1,23 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/white_grey_border_bottom">
+        <!--Putting the background attribute in the root element
+            ensures that the stroke defined in the white_grey_border_bottom.xml
+            appears under the TabLayout-->
+
+        <!--Omitting AppBarLayout as a containing tag ensures that no
+            default shadow is generated-->
+            <android.support.design.widget.TabLayout
+                android:id="@+id/layout_study_top_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                style="@style/tabCustomStyle">
+
+            </android.support.design.widget.TabLayout>
+
+    </RelativeLayout>
+</merge>
